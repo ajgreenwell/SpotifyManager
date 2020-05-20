@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+    display: inline-block;
+    font-family: 'Roberto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #111;
+}
+
+.login-button {
+    margin-top: 30px;
+    width: 200px!important;
+    font-size: 14px!important;
+}
+
+@media only screen and (max-width: 850px) {
+    .not-authenticated h1 {
+        margin-top: 0;
+    }
+}

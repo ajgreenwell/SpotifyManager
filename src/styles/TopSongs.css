@@ -1,0 +1,122 @@
+.top-songs {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.success-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #1db954;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0 10px 0 10px;
+  font-size: 1.5vw;
+}
+
+.success-message .nav-link {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: 0 .6% 0 .6%;
+}
+
+.success-message .nav-link:hover {
+  cursor: pointer;
+  color: rgb(18, 128, 57);
+}
+
+.success-message .nav-link:focus {
+  outline: none;
+}
+
+header.top-songs-small-header {
+  display: none;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  padding-bottom: 27px;
+}
+
+.top-songs-small-header-buttons {
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header.top-songs-large-header {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  padding-bottom: 27px;
+}
+
+header.top-songs-large-header .top-songs-button {
+  white-space: nowrap;
+  font-size: .9vw;
+}
+
+header .top-songs-button {
+  width: 23%;
+}
+
+header .top-songs-title {
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  width: max-content;
+}
+
+@media only screen and (max-width: 850px) {
+  .success-message {
+    font-size: 2.2vw;
+  }
+
+  header.top-songs-large-header {
+    margin-top: 0;
+  }
+
+  header.top-songs-large-header .top-songs-button {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .success-message {
+    font-size: 2.8vw;
+  }
+
+  header.top-songs-small-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header.top-songs-small-header .top-songs-button {
+    width: 40%;
+  }
+
+  header.top-songs-small-header .top-songs-title {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  header.top-songs-large-header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  header.top-songs-small-header .top-songs-button {
+    font-size: 1.8vw;
+  }
+}

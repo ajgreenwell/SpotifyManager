@@ -1,0 +1,33 @@
+.home {
+    height: 100%;
+}
+
+.home-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.home-body {
+    height: 100%;
+}
+
+.home-body-header {
+    margin: 40px 0 20px 0;
+}
+
+.playlists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.loading-indicator {
+    margin-top: 20%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+    .home-header h1 {
+      margin-top: 0;
+    }
+  }

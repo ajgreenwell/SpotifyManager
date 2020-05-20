@@ -1,0 +1,138 @@
+nav {
+  height: 100%;
+  width: 190px;
+  padding: 20px 20px 20px 30px;
+}
+
+nav .title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0 0 0;
+  padding-bottom: 20px;
+}
+
+nav .logo {
+  width: 50px;
+  height: auto;
+}
+
+nav .app-title { 
+  color: var(--spotify-green);
+  display: flex;
+  margin: 0 0 0 10px;
+  height: 100%;
+  align-items: center;
+  text-align: left;
+}
+
+nav .nav-body {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+nav .nav-body button {
+  text-align: left;
+}
+
+nav .home-button {
+  font-size: inherit;
+}
+
+nav .top-songs-nav-item {
+  text-align: left;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 0;
+  font-weight: 500;
+  font-size: inherit;
+}
+
+nav button {
+  width: max-content;
+  margin: 6px 8px 6px 24px;
+  height: 40px;
+  font-size: inherit;
+  color: white;
+  background-color: transparent;
+  border: none;
+  display: block;
+  top: 0;
+  transition: color .1s;
+}
+
+nav button:hover {
+  color: var(--spotify-green)!important;
+  cursor: pointer;
+}
+
+nav button:focus {
+  color: var(--spotify-green)!important;
+  outline: none;
+}
+
+nav button:active {
+  position: relative;
+  top: 2px;
+}
+
+@media only screen and (max-width: 850px) {
+  nav {
+    box-sizing: border-box;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  nav .title {
+    width: fit-content;
+    margin: 0 30px 0 0;
+    padding: 0px;
+    align-items: center;
+  }
+
+  nav .nav-body {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  nav .top-songs-nav-item {
+    font-weight: normal;
+  }
+
+  nav h2.top-songs-nav-item {
+    display: none;
+  }
+
+  nav .nav-body button {
+    white-space: nowrap;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  nav {
+    flex-direction: column;
+    height: 130px;
+  }
+
+  nav .title {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  nav .nav-body button {
+    margin: 2px 2px 2px 2px;
+    font-size: 3.4vw;
+  }
+
+
+}
