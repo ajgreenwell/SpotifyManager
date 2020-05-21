@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SpotifyManager/static/css/main.ea5a7dad.chunk.css",
-    "main.js": "/SpotifyManager/static/js/main.5c5bda0d.chunk.js",
-    "main.js.map": "/SpotifyManager/static/js/main.5c5bda0d.chunk.js.map",
-    "runtime-main.js": "/SpotifyManager/static/js/runtime-main.bab44874.js",
-    "runtime-main.js.map": "/SpotifyManager/static/js/runtime-main.bab44874.js.map",
-    "static/js/2.5028d3d2.chunk.js": "/SpotifyManager/static/js/2.5028d3d2.chunk.js",
-    "static/js/2.5028d3d2.chunk.js.map": "/SpotifyManager/static/js/2.5028d3d2.chunk.js.map",
-    "index.html": "/SpotifyManager/index.html",
-    "precache-manifest.4a47a0ccc236204bf9d44ae7f99d491a.js": "/SpotifyManager/precache-manifest.4a47a0ccc236204bf9d44ae7f99d491a.js",
-    "service-worker.js": "/SpotifyManager/service-worker.js",
-    "static/css/main.ea5a7dad.chunk.css.map": "/SpotifyManager/static/css/main.ea5a7dad.chunk.css.map",
-    "static/js/2.5028d3d2.chunk.js.LICENSE.txt": "/SpotifyManager/static/js/2.5028d3d2.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.ea5a7dad.chunk.css",
+    "main.js": "/static/js/main.b85ac132.chunk.js",
+    "main.js.map": "/static/js/main.b85ac132.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c86955db.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c86955db.js.map",
+    "static/js/2.5028d3d2.chunk.js": "/static/js/2.5028d3d2.chunk.js",
+    "static/js/2.5028d3d2.chunk.js.map": "/static/js/2.5028d3d2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5d7ac35e2d5c3027828b542f31679d5e.js": "/precache-manifest.5d7ac35e2d5c3027828b542f31679d5e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ea5a7dad.chunk.css.map": "/static/css/main.ea5a7dad.chunk.css.map",
+    "static/js/2.5028d3d2.chunk.js.LICENSE.txt": "/static/js/2.5028d3d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bab44874.js",
+    "static/js/runtime-main.c86955db.js",
     "static/js/2.5028d3d2.chunk.js",
     "static/css/main.ea5a7dad.chunk.css",
-    "static/js/main.5c5bda0d.chunk.js"
+    "static/js/main.b85ac132.chunk.js"
   ]
 }
