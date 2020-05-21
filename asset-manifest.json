@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SpotifyManager/static/css/main.ea5a7dad.chunk.css",
-    "main.js": "/SpotifyManager/static/js/main.0dad648d.chunk.js",
-    "main.js.map": "/SpotifyManager/static/js/main.0dad648d.chunk.js.map",
+    "main.js": "/SpotifyManager/static/js/main.5c5bda0d.chunk.js",
+    "main.js.map": "/SpotifyManager/static/js/main.5c5bda0d.chunk.js.map",
     "runtime-main.js": "/SpotifyManager/static/js/runtime-main.bab44874.js",
     "runtime-main.js.map": "/SpotifyManager/static/js/runtime-main.bab44874.js.map",
     "static/js/2.5028d3d2.chunk.js": "/SpotifyManager/static/js/2.5028d3d2.chunk.js",
     "static/js/2.5028d3d2.chunk.js.map": "/SpotifyManager/static/js/2.5028d3d2.chunk.js.map",
     "index.html": "/SpotifyManager/index.html",
-    "precache-manifest.15cb6df661cbf3e6153057e7576d13b0.js": "/SpotifyManager/precache-manifest.15cb6df661cbf3e6153057e7576d13b0.js",
+    "precache-manifest.4a47a0ccc236204bf9d44ae7f99d491a.js": "/SpotifyManager/precache-manifest.4a47a0ccc236204bf9d44ae7f99d491a.js",
     "service-worker.js": "/SpotifyManager/service-worker.js",
     "static/css/main.ea5a7dad.chunk.css.map": "/SpotifyManager/static/css/main.ea5a7dad.chunk.css.map",
     "static/js/2.5028d3d2.chunk.js.LICENSE.txt": "/SpotifyManager/static/js/2.5028d3d2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bab44874.js",
     "static/js/2.5028d3d2.chunk.js",
     "static/css/main.ea5a7dad.chunk.css",
-    "static/js/main.0dad648d.chunk.js"
+    "static/js/main.5c5bda0d.chunk.js"
   ]
 }
